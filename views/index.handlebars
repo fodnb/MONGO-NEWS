@@ -1,0 +1,37 @@
+
+
+{{#each article}}
+
+<div class="row">
+<div class="col-sm-12">
+
+
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h2> {{this.title}}</h2>
+</div>
+</div>
+<div class="panel-body">
+<button class="btn"><a href="{{this.link}}">Go to Article</a></button>
+</div>
+<!-- <h2>Update	 a Comment</h2> -->
+
+<div class="panel-body">
+<form action="/comment" method="POST">
+ 	<input type="hidden" name="id" value="{{this.id}}">  
+	<!-- <textarea type="text" name="comment"></textarea> -->
+	<button type="submit" class="btn btn-primary">Go to Comments!</button>
+</form>
+</div>
+<!-- <div class="panel-body">
+<form action="/mycomments" method="POST">
+ 	<input type="hidden" name="id" value="{{id}}">  
+	<textarea type="text" name="comment"></textarea>
+	<button type="submit">Submit Comment!</button>
+</form>
+</div> -->
+</div>
+
+</div>
+<br>
+{{/each}}

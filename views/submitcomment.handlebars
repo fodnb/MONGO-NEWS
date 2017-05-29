@@ -1,0 +1,17 @@
+
+<div>
+<h2>ARTICLE</h2>
+
+{{#each comment}}
+<h2> {{title}}</h2>
+<!-- <h3> {{article.link}}</h3> -->
+<!-- <h3> {{article.id}}</h3> -->
+<h3> {{comments}} </h3>	
+
+<form action="/submit" method="POST">
+ 	<input type="hidden" name="id" value="{{id}}">  
+	<textarea type="text" name="comment"></textarea>
+	<button type="submit">Submit Comment!</button>
+</form>
+{{/each}}
+</div>

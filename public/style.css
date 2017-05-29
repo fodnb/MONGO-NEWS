@@ -1,0 +1,46 @@
+
+.panel {
+	overflow: auto;
+	margin: 0 auto;
+	margin-bottom: 3px;
+}
+
+.panel-heading h2 {
+	color: yellow;
+}
+
+#main {
+	border: 1px solid black;
+
+}
+.jumbotron {
+background-color: #337ab7;
+color: white;
+text-shadow: 3px 3px black;
+text-align: center;
+}
+
+button {
+	width: 20%;
+}
+
+#commentbutton {
+	width: 100%;
+}
+
+#deletebutton {
+	width: 30%;
+	float: right;
+}
+
+#commentline {
+	text-transform: capitalize;
+}
+
+.panel-body {
+	/*border-bottom: 1px solid black;*/
+}
+h2 {
+	text-shadow: 1px 1px black;
+
+}

@@ -1,0 +1,29 @@
+{
+  "name": "mongo-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fodnb/MONGO-NEWS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fodnb/MONGO-NEWS/issues"
+  },
+  "homepage": "https://github.com/fodnb/MONGO-NEWS#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.1",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}
